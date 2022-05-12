@@ -81,10 +81,6 @@ Na prática, essa estrutura tem uma pasta contendo um arquivo *app.py* como um m
 │   └── encode.html
 │   └── decode.html 
 │   └── index.html 
-├── venv
-│   └── bin
-│   └── lib
-│   └── lib64
 
 ```
   #### Detalhamento do arquivo `app.py`
