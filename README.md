@@ -36,7 +36,7 @@ Stacks utilizadas para estruturar os elementos das páginas e definir a aparênc
 
 A escolha do microframework se deu a partir da análise da complexidade do desafio. Como esta aplicação tem uma estrutura simples, o Flask corresponde bem ao seu propósito, performando de maneira *ágil* e *modular*. A decisão também foi aliada ao fato de ser o primeiro framework em Python que venho estudando para *Residência de Softaware - Porto digital*, justamente por ter uma curva de aprendizado menos complexa quando comparado a outros.
 
-## 2. Instalação e configuração:
+## 3. Instalação e configuração:
 
 Passo a passo:
 
@@ -65,7 +65,7 @@ pip install flask
 http://127.0.0.1:5000/
 ```
 
-## 3. Estrutura
+## 4. Estrutura
 
 Para construção de aplicativos escaláveis e de fácil manutenção, é importante definir a estrutura adequada. Por ser uma aplicação pequena e com poucas funcionalidades, foi implementanda uma estrutura de módulo de arquivo único. 
 
@@ -95,13 +95,13 @@ Na prática, essa estrutura tem uma pasta contendo um arquivo *app.py* como um m
  - Método *render_template*: renderiza os arquivos html indicados.
 
 
-## 3. Fluxo de funcionamento
+## 5. Fluxo de funcionamento
 
 A página inicial conta com uma interface simples e intuitiva, nela o usuário tem duas opções de escolha:  `CODIFICAR` ou `DECODIFICAR` uma entrada. Ao selecionar a opção desejada será direcionado para página de destino. Caso a escolha seja a opção `CODIFICAR`, o usuário dispõe de dois *inputs*  e um botão `CODIFICAR`, o primeiro input é para inserção dos caracteres, e o segundo (desabilidado) para exibição da conversão. 
 
 Do lado do servidor, as entradas do usuário são verificadas por meio de *expressões regulares* e validadas de acordo com um dicionário - *dict_morse* - usado para mapear todos os simbolos de “texto normal” para suas respectivas traduções de Código Morse. Posteriormente, quando o **.route(/encode)** é acessado, o navegador renderiza o resultado da codificação para o usuário.
 
-## 4.Capturas de tela
+## 6.Capturas de tela
 
 **PÁGINA INICIAL**
 ![tela-inical](https://user-images.githubusercontent.com/82230820/168054096-015ddc61-8a34-459d-9494-99adf1781c79.png)
@@ -112,7 +112,7 @@ Do lado do servidor, as entradas do usuário são verificadas por meio de *expre
 **DECODIFICAR**
 ![tela-decode](https://user-images.githubusercontent.com/82230820/168054732-100d98ad-4bbb-4dd8-b00a-deab23dd4773.png)
 
-## 5. Escalabilidade
+## 7. Escalabilidade
 
 **Sugestão: Cloud Compunting**
 
@@ -127,7 +127,7 @@ Algumas vantagens:
 - [x] Atualizações automáticas
 - [x] Economia de custos em termos de instalação e manutenção
 
-## 5.Implementações futuras
+## 8.Implementações futuras
 
 - [ ] Tratamento de erros para inputs inválidos (back-end)
 - [ ] Tratamento de erros para inputs inválidos (front-end)
