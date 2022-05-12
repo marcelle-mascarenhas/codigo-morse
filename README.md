@@ -78,9 +78,9 @@ Na prática, essa estrutura tem uma pasta contendo um arquivo *app.py* como um m
 │   └── morse-code.png
 │   └── style.css    
 ├── templates
-│   └── encode.html
-│   └── decode.html 
-│   └── index.html 
+    └── encode.html
+    └── decode.html 
+    └── index.html 
 
 ```
   #### Detalhamento do arquivo `app.py`
