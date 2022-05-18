@@ -93,7 +93,7 @@ Na prática, essa estrutura tem uma pasta contendo um arquivo *app.py* como um m
 
 ## 5. Fluxo de funcionamento
 
-A página inicial conta com uma interface simples e intuitiva, nela o usuário tem duas opções de escolha:  `CODIFICAR` ou `DECODIFICAR` uma entrada. Ao selecionar a opção desejada será direcionado para página de destino. Caso a escolha seja a opção `CODIFICAR`, o usuário dispõe de dois *inputs*  e um botão `CODIFICAR`, o primeiro input é para inserção dos caracteres, e o segundo (desabilidado) para exibição da conversão. 
+A página inicial conta com uma interface simples e intuitiva, nela o usuário tem duas opções de escolha:  `CODIFICAR` ou `DECODIFICAR` uma entrada. Ao selecionar a opção desejada será direcionado para página de destino. Caso a escolha seja a opção `CODIFICAR`, o usuário irá dispor de dois *inputs*  e um botão `CODIFICAR`. O primeiro input é para inserção dos caracteres, e o segundo (desabilidado) para exibição da conversão. 
 
 Do lado do servidor, as entradas do usuário são verificadas por meio de *expressões regulares* e validadas de acordo com um dicionário - *dict_morse* - usado para mapear todos os simbolos de “texto normal” para suas respectivas traduções de Código Morse. Posteriormente, quando o **.route(/encode)** é acessado, o navegador renderiza o resultado da codificação para o usuário.
 
