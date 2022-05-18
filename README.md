@@ -22,7 +22,7 @@ Caso você não conheça o código morse, segue uma tabela abaixo que pode te aj
 
 ![table_morse](https://user-images.githubusercontent.com/82230820/167986087-36b64bde-a902-43dc-b4dd-72c94863265c.jpg)
 
-## 2. Stack de desenvolvimento:
+## 2. Stack de desenvolvimento
 
 **Front-end**
 
@@ -36,7 +36,7 @@ Stacks utilizadas para estruturar os elementos das páginas e definir a aparênc
 
 A escolha do microframework se deu a partir da análise da complexidade do desafio. Como esta aplicação tem uma estrutura simples, o Flask corresponde bem ao seu propósito, performando de maneira *ágil* e *modular*. A decisão também foi aliada ao fato de ser o primeiro framework em Python que venho estudando para *Residência de Softaware - Porto digital*, justamente por ter uma curva de aprendizado menos complexa quando comparado a outros.
 
-## 3. Instalação e configuração:
+## 3. Instalação e configuração
 
 Passo a passo:
 
